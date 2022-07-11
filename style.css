@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Dreamscape";
+    src: url(/font/Dreamscape.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.primary-btn {
+    padding: .5em 1em;
+    color: black;
+    background-color: white;
+    transition: all .3s ease;
+}
+
+body {
+    font-family: 'Dreamscape', sans-serif;
+}
+
+.primary-btn:hover {
+    opacity: .8;
+}
+
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    background: url(./images/image1.png);
+    background-repeat: no-repeat;
+    -webkit-animation: zoom-out 20s ease forwards;
+    animation: zoom-out 20s ease forwards;
+}
+
+@keyframes zoom-out {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 50% 50%;
+    }
+}
+
+.hero-section-content {
+    display: grid;
+    place-content: center;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    gap: 1em;
+}
+
+.hero-section-content h1 {
+    font-size: 10em;
+}
+
+span {
+    margin: 0 1em;
+}
+
+.hero-bottom {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}

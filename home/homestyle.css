@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Dreamscape";
+    src: url(../font/Dreamscape.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Dreamscape', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.header {
+    color: white;
+}
+
+.header h1 {
+    font-size: 6em;
+}
+
+.select {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+a {
+    color: white;
+    padding: .5em 10em .5em .3em;
+    font-size: 1.3em;
+    position: relative;
+    z-index: 2;
+}
+
+a::before {
+    content: "";
+    background-color: white;
+    width: 0px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    transition: all .8s ease;
+    z-index: -1;
+}
+
+a:hover {
+    color: black;
+}
+
+a:hover::before {
+    width: 100%;
+}
+
+.home-screen {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation: zoom-out 20s ease forwards;
+    animation: zoom-out 20s ease forwards;
+}
+
+@keyframes zoom-out {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
+}

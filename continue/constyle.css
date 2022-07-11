@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Dreamscape";
+    src: url(../font/Dreamscape.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Dreamscape', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    /* gap: 4em; */
+    height: 100vh;
+}
+
+.header {
+    padding: 2em;
+    color: white;
+}
+
+.header h1 {
+    font-size: 6em;
+}
+
+.image-select {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+}
+
+.home-screen {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation: zoom-out 20s ease forwards;
+    animation: zoom-out 20s ease forwards;
+}
+
+.select,
+.select1,
+.select2,
+.select3 {
+    width: 150px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    transition: all 1s ease;
+}
+
+.kik {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation: zoom-out 20s ease forwards;
+    animation: zoom-out 20s ease forwards;
+    transition: all .7s ease;
+}
+
+.kik1 {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation: zoom-out 20s ease forwards;
+    animation: zoom-out 20s ease forwards;
+    transition: all .7s ease;
+}
+
+.kik2 {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/image3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation: zoom-out 20s ease forwards;
+    animation: zoom-out 20s ease forwards;
+    transition: all .7s ease;
+}
+
+.kik3 {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/image4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation: zoom-out 20s ease forwards;
+    animation: zoom-out 20s ease forwards;
+    transition: all .7s ease;
+}
+
+.active {
+    width: 300px;
+    border: 4px solid white;
+}
+
+
+@keyframes zoom-out {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
+}
