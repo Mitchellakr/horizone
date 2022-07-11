@@ -48,7 +48,7 @@ body {
 .home-screen {
     height: 100vh;
     width: 100%;
-    background: url(../images/image1.png);
+    background: url(../images/image1dark.png);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-animation: zoom-out 20s ease forwards;
@@ -59,7 +59,7 @@ body {
 .select1,
 .select2,
 .select3 {
-    width: 150px;
+    width: 100px;
     border-radius: 50%;
     aspect-ratio: 1/1;
     transition: all 1s ease;
@@ -68,7 +68,7 @@ body {
 .kik {
     height: 100vh;
     width: 100%;
-    background: url(../images/image1.png);
+    background: url(../images/image1dark.png);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-animation: zoom-out 20s ease forwards;
@@ -79,7 +79,7 @@ body {
 .kik1 {
     height: 100vh;
     width: 100%;
-    background: url(../images/image2.png);
+    background: url(../images/image2dark.png);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-animation: zoom-out 20s ease forwards;
@@ -90,7 +90,7 @@ body {
 .kik2 {
     height: 100vh;
     width: 100%;
-    background: url(../images/image3.png);
+    background: url(../images/image3dark.png);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-animation: zoom-out 20s ease forwards;
@@ -101,7 +101,7 @@ body {
 .kik3 {
     height: 100vh;
     width: 100%;
-    background: url(../images/image4.png);
+    background: url(../images/image4dark.png);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-animation: zoom-out 20s ease forwards;
